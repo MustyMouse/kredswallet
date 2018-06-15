@@ -13,7 +13,7 @@ python setup.py
 
 ### Use
 ```python
-from kredswallet.kredswallet import *
+from kredswallet import *
 kreds=KredsAPI(KREDS_API,KREDS_SECRET) # Use environment variable or replace with your key and secret
 print(kreds.status())
 ```
