@@ -2,7 +2,7 @@ from setuptools import setup,find_packages
 
 setup(
 	name = "kredswallet",
-	version = "0.1b",
+	version = "0.1b1",
 	install_requires = ["requests"],
 	author = "MustyMouse",
 	author_email = "admin@krux.us",
