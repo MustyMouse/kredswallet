@@ -1,5 +1,5 @@
 import unittest,os,base64,time,requests,hashlib,json
-from kredswallet.kredswallet import *
+from kredswallet import *
 
 class TestKreds(unittest.TestCase):
 	def setUp(self,KREDS_API=os.environ.get("KREDS_API"),KREDS_SECRET=os.environ.get("KREDS_SECRET")):
